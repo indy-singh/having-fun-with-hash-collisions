@@ -23,7 +23,7 @@ public sealed class Version001 : IVersion
 
             if (int32 == 1228476406)
             {
-                Console.WriteLine(stringBytes);
+                Console.WriteLine(guidString);
             }
 
             if (bench)
