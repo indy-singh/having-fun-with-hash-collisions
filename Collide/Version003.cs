@@ -20,6 +20,7 @@ public sealed class Version003 : IVersion
         while (true)
         {
             guidBytes.Clear();
+            stringBytes.Clear();
             random.NextBytes(guidBytes);
 
             var guidString = new Guid(guidBytes).ToString().AsSpan();
